@@ -21,12 +21,60 @@
       };
     </script>
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1 class="">hello</h1>
+  <body class="lg:px-[100px] px-[10px] font-inter">
+    <header class="lg:py-[30px] py-[20px] border-b-2 border-[#17171733]">
+      <nav class="flex justify-between items-center">
+        <div class="flex items-center lg:gap-3 gap-1">
+          <img class="lg:w-[32px] lg:h-[32px] w-[22px] h-[22px]" src="images/ph-tube.png" alt="" />
+          <h3 class="lg:text-[32px] text-[18px] font-bold"><span class="text-theme-color">PH</span> TUBE</h3>
+        </div>
+        <button
+          class="lg:text-[18px] text-[16px] font-medium lg:py-[10px] py-[8px] lg:px-[20px] px-[15px] rounded text-[#252525] bg-[#25252533]"
+        >
+          Sort by view
+        </button>
+        <button
+          class="lg:text-[18px] text-[16px] font-medium lg:py-[10px] py-[8px] lg:px-[20px] px-[15px] rounded text-white bg-theme-color"
+        >
+          Blog
+        </button>
+      </nav>
+    </header>
 
+    <main>
+      <!-- Category Buttons -->
+      <div class="lg:pt-8 pt-4 lg:pb-10 pb-5 flex lg:gap-5 gap-2 justify-center">
+        <button
+          class="lg:text-[18px] text-[16px] font-medium lg:py-[5px] py-[5px] lg:px-[20px] px-[15px] rounded text-white bg-theme-color"
+        >
+          All
+        </button>
+        <button
+          class="lg:text-[18px] text-[16px] font-medium lg:py-[5px] py-[5px] lg:px-[20px] px-[15px] rounded text-[#252525b3] bg-[#25252533]"
+        >
+          Music
+        </button>
+        <button
+          class="lg:text-[18px] text-[16px] font-medium lg:py-[5px] py-[5px] lg:px-[20px] px-[15px] rounded text-[#252525b3] bg-[#25252533]"
+        >
+          Comedy
+        </button>
+        <button
+          class="lg:text-[18px] text-[16px] font-medium lg:py-[5px] py-[5px] lg:px-[20px] px-[15px] rounded text-[#252525b3] bg-[#25252533]"
+        >
+          Drawing
+        </button>
+      </div>
+    </main>
+    <footer></footer>
     <!-- Scripts -->
     <script src="script.js"></script>
   </body>
